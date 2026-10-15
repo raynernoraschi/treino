@@ -1,0 +1,37 @@
+MEU TREINO — como colocar no ar
+================================
+
+1) TROQUE A SENHA
+   Abra o arquivo config.php e mude 'troque-esta-senha' para a sua senha.
+
+2) SUBA OS ARQUIVOS
+   Envie TODO o conteúdo desta pasta para a pasta pública da hospedagem
+   (geralmente "htdocs" ou "public_html"), mantendo a pasta "data" junto:
+
+      index.html, style.css, app.js, api.php, config.php, data/
+
+   Pode ser pelo gerenciador de arquivos do painel ou por FTP.
+   A hospedagem precisa ter PHP (qualquer versão 7.4 ou mais nova).
+
+3) PERMISSÃO DA PASTA data
+   A pasta "data" precisa aceitar escrita (permissão 755 ou 775; se der erro
+   ao salvar, tente 777). É onde ficam seus treinos.
+
+4) ABRA O SITE
+   Acesse o endereço da hospedagem, entre com a senha e pronto.
+   No celular, use "Adicionar à tela inicial" para abrir como um app.
+
+SEUS DADOS
+   Ficam em data/store.php (e uma cópia de segurança em data/store.bak.php).
+   O arquivo não pode ser lido pelo navegador. Para fazer backup, baixe
+   data/store.php pelo gerenciador de arquivos/FTP de vez em quando.
+   Ao atualizar o site no futuro, NÃO apague nem sobrescreva a pasta data.
+
+COMO USAR
+   Treino ......... escolha A, B ou C, preencha as cargas/reps durante o treino
+                    (o rascunho fica salvo no celular) e toque em "Finalizar".
+   Exercícios ..... edite nome, séries, repetições, ordem e carga de referência
+                    de cada treino; adicione ou remova exercícios.
+   Estatísticas ... treinos por semana, volume, e gráfico de evolução de cada
+                    exercício (carga máxima, volume ou 1RM estimado).
+   Histórico ...... veja, edite ou exclua treinos já salvos.
